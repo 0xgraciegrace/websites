@@ -5,7 +5,9 @@ here = Path(__file__).parent
 svg = {p.stem: p.read_text() for p in here.glob("*.svg")}
 
 concepts = [
-    ("d-sombrero", "D · Sombrero de palma (nuevo, recomendado)", "Evolución del concepto B: solo la cabeza, con sombrero de palma y cinta azul-blanco-azul. Colores planos sin degradado, contorno grueso y consistente. Funciona como ícono de app, avatar de WhatsApp y favicon."),
+    ("f-moderno", "F · Moderno amigable (nuevo, a partir de tu referencia)", "Punto medio entre la referencia clásica y los conceptos planos: sombrero de palma bien puesto, bufanda azul y blanca, sonrisa abierta, ojos azules y pulgar arriba. Formas planas y simples para que se vea moderno y se imprima bien."),
+    ("f-moderno-icono", "F · Ícono (cabeza)", "La misma mascota recortada a la cabeza para ícono de app, avatar de WhatsApp y favicon."),
+    ("d-sombrero", "D · Sombrero de palma (anterior)", "Evolución del concepto B: solo la cabeza, con sombrero de palma y cinta azul-blanco-azul. Colores planos sin degradado, contorno grueso y consistente. Funciona como ícono de app, avatar de WhatsApp y favicon."),
     ("e-mascota-sombrero", "E · Mascota con sombrero y pañuelo (nuevo)", "La mascota de cuerpo completo con sombrero de palma y pañuelo rojo. Para bolsas, rótulos y redes; en tamaños pequeños se usa el ícono D."),
     ("a-mascota", "A · Mascota", "Pingüino de frente sosteniendo un cubito. El más expresivo y amigable; ideal como personaje para redes, bolsas y rótulos."),
     ("b-asomado", "B · Asomado", "Pingüino asomándose desde un cubo de hielo. Funciona como ícono de app, avatar de WhatsApp y favicon: se lee bien en tamaños pequeños."),
