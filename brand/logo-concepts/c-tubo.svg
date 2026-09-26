@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>

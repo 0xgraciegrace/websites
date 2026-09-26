@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hielo Pingüino · Conceptos de logo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#0B1F3A; --teal:#2EC4C9; --orange:#FF7A1A; --ice:#F4FBFC; --sun:#FFC933; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Rubik, system-ui, sans-serif; background:#E9F3F5; color:var(--navy); }
+  main { max-width:1040px; margin:0 auto; padding:40px 16px 80px; }
+  h1 { font-weight:900; font-size:clamp(28px,5vw,44px); margin:0 0 6px; }
+  .lead { margin:0 0 28px; color:#35506F; max-width:680px; }
+  .palette { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:36px; }
+  .sw { flex:1 1 150px; border-radius:14px; padding:44px 12px 10px; font-size:13px; font-weight:500; }
+  .concept, .badge-sec { background:#fff; border-radius:22px; padding:24px; margin-bottom:28px; box-shadow:0 1px 0 rgba(11,31,58,.06); }
+  .concept h2, .badge-sec h2 { margin:0 0 4px; font-weight:900; }
+  .concept header p, .badge-sec p { margin:0 0 18px; color:#35506F; }
+  .row { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-bottom:14px; }
+  .tile { border-radius:16px; padding:28px; display:grid; place-items:center; aspect-ratio:1; }
+  .tile svg { width:100%; max-width:170px; }
+  .light { background:var(--ice); } .navy { background:var(--navy); } .teal { background:var(--teal); }
+  .lockups { grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
+  .lockup { display:flex; align-items:center; gap:16px; padding:22px; border-radius:16px; background:var(--ice); }
+  .lockup.dark { background:var(--navy); }
+  .lk-icon svg { width:84px; display:block; }
+  .lk-text { display:flex; flex-direction:column; line-height:1; }
+  .lk-hielo { font-weight:700; letter-spacing:.42em; font-size:14px; color:var(--teal); }
+  .lk-name { font-weight:900; font-size:40px; letter-spacing:-.01em; margin:4px 0 6px; }
+  .lk-tag { align-self:flex-start; background:var(--orange); color:#fff; font-weight:700; font-size:12px; padding:4px 10px; border-radius:99px; letter-spacing:.06em; text-transform:uppercase; }
+  .sizes { display:flex; align-items:end; gap:18px; color:#35506F; font-size:14px; flex-wrap:wrap; }
+  .sizes svg { width:100%; display:block; }
+  .badge-row { display:flex; flex-wrap:wrap; gap:20px; align-items:center; }
+  .badge-row > svg { width:200px; } .badge-row div svg { width:100%; display:block; }
+  /* sticker outline so navy shapes stay visible on navy backgrounds */
+  .navy svg, .lockup.dark .lk-icon svg { filter:drop-shadow(3px 0 0 var(--ice)) drop-shadow(-3px 0 0 var(--ice)) drop-shadow(0 3px 0 var(--ice)) drop-shadow(0 -3px 0 var(--ice)); }
+  .note { font-size:13px; color:#5B708A; }
+  @media (max-width:480px) { .lk-name { font-size:30px; } .lk-icon svg { width:64px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hielo Pingüino · Conceptos de logo</h1>
+  <p class="lead">Tres direcciones para el ícono principal, más el sello regional <strong>Del Oriente</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
+
+  <div class="palette">
+    <div class="sw" style="background:var(--navy);color:#fff">Navy Profundo<br>#0B1F3A</div>
+    <div class="sw" style="background:var(--teal)">Hielo Teal<br>#2EC4C9</div>
+    <div class="sw" style="background:var(--orange);color:#fff">Naranja Eléctrico<br>#FF7A1A</div>
+    <div class="sw" style="background:var(--ice);border:1px solid #d4e4e8">Blanco Hielo<br>#F4FBFC</div>
+    <div class="sw" style="background:var(--sun)">Amarillo Sol<br>#FFC933</div>
+  </div>
+
+  <section class="concept">
+    <header><h2>A · Mascota</h2><p>Pingüino de frente sosteniendo un cubito. El más expresivo y amigable; ideal como personaje para redes, bolsas y rótulos.</p></header>
+    <div class="row">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div>
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div>
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div>
+    </div>
+    <div class="row lockups">
+    <div class="lockup ">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-hielo">HIELO</span>
+        <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
+        <span class="lk-tag">Del Oriente</span>
+      </div>
+    </div>
+    <div class="lockup dark">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-hielo">HIELO</span>
+        <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
+        <span class="lk-tag">Del Oriente</span>
+      </div>
+    </div></div>
+    <div class="sizes"><span>Tamaños pequeños:</span>
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+  <!-- feet -->
+  <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+  <!-- flippers -->
+  <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+  <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+  <!-- body -->
+  <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+  <!-- face / belly mask -->
+  <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+  <!-- eyes -->
+  <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+  <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+  <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+  <!-- beak -->
+  <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- ice cube on belly -->
+  <g transform="rotate(-12 100 145)">
+    <rect x="85" y="130" width="30" height="30" rx="7" fill="#2EC4C9"/>
+    <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
+  </g>
+</svg>
+</div>
+    </div>
+  </section>
+  <section class="concept">
+    <header><h2>B · Asomado</h2><p>Pingüino asomándose desde un cubo de hielo. Funciona como ícono de app, avatar de WhatsApp y favicon: se lee bien en tamaños pequeños.</p></header>
+    <div class="row">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div>
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div>
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div>
+    </div>
+    <div class="row lockups">
+    <div class="lockup ">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-hielo">HIELO</span>
+        <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
+        <span class="lk-tag">Del Oriente</span>
+      </div>
+    </div>
+    <div class="lockup dark">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-hielo">HIELO</span>
+        <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
+        <span class="lk-tag">Del Oriente</span>
+      </div>
+    </div></div>
+    <div class="sizes"><span>Tamaños pequeños:</span>
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+  <defs>
+    <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect width="200" height="200" rx="46"/></clipPath>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="200" height="200" fill="url(#bIce)"/>
+    <!-- ice shine -->
+    <path d="M22 22 L78 22 L22 78 Z" fill="#F4FBFC" opacity=".35"/>
+    <rect x="140" y="26" width="34" height="10" rx="5" fill="#F4FBFC" opacity=".5"/>
+    <!-- penguin head peeking up -->
+    <circle cx="100" cy="170" r="84" fill="#0B1F3A"/>
+    <path d="M100 118 C108 96 146 92 150 128 C154 170 140 210 100 210 C60 210 46 170 50 128 C54 92 92 96 100 118 Z" fill="#F4FBFC"/>
+    <circle cx="80" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="120" cy="134" r="10" fill="#0B1F3A"/>
+    <circle cx="83.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="123.5" cy="130.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+</svg>
+</div>
+    </div>
+  </section>
+  <section class="concept">
+    <header><h2>C · Tubo</h2><p>Pingüino de perfil construido con la forma del hielo en tubo. El más moderno y geométrico; conecta directamente con el producto estrella.</p></header>
+    <div class="row">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div>
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div>
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div>
+    </div>
+    <div class="row lockups">
+    <div class="lockup ">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-hielo">HIELO</span>
+        <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
+        <span class="lk-tag">Del Oriente</span>
+      </div>
+    </div>
+    <div class="lockup dark">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-hielo">HIELO</span>
+        <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
+        <span class="lk-tag">Del Oriente</span>
+      </div>
+    </div></div>
+    <div class="sizes"><span>Tamaños pequeños:</span>
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+  <!-- feet -->
+  <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
+  <!-- tube body -->
+  <rect x="56" y="12" width="92" height="172" rx="46" fill="#0B1F3A"/>
+  <!-- belly -->
+  <rect x="84" y="62" width="56" height="112" rx="28" fill="#F4FBFC"/>
+  <!-- flipper -->
+  <path d="M70 92 C96 104 104 134 96 150 C84 140 72 120 70 92 Z" fill="#0B1F3A" stroke="#F4FBFC" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eye -->
+  <circle cx="116" cy="48" r="11" fill="#F4FBFC"/>
+  <circle cx="119" cy="48" r="5.5" fill="#0B1F3A"/>
+  <!-- beak -->
+  <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+</div>
+    </div>
+  </section>
+  <section class="badge-sec">
+    <h2>Sello regional · Del Oriente</h2>
+    <p>Emblema secundario para bolsas y rótulos en el mercado oriental. Si la marca se expande a San Salvador u Occidente, el sello se cambia o se quita y el logo principal queda intacto.</p>
+    <div class="badge-row"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Sello Del Oriente – Hecho en San Miguel">
+  <defs>
+    <path id="arcTop" d="M30 100 A70 70 0 0 1 170 100"/>
+    <path id="arcBot" d="M24 100 A76 76 0 0 0 176 100"/>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="#0B1F3A"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#2EC4C9" stroke-width="3"/>
+  <circle cx="100" cy="100" r="52" fill="#FF7A1A"/>
+  <!-- sun rays / heat -->
+  <g stroke="#FFC933" stroke-width="5" stroke-linecap="round">
+    <path d="M100 62 v-6"/><path d="M127 73 l4 -4"/><path d="M73 73 l-4 -4"/>
+  </g>
+  <!-- mini penguin -->
+  <path d="M100 66 C120 66 128 84 128 104 C128 126 116 138 100 138 C84 138 72 126 72 104 C72 84 80 66 100 66 Z" fill="#0B1F3A"/>
+  <path d="M100 88 C104 80 120 79 121 94 C122 114 115 132 100 132 C85 132 78 114 79 94 C80 79 96 80 100 88 Z" fill="#F4FBFC"/>
+  <circle cx="92" cy="96" r="4" fill="#0B1F3A"/><circle cx="108" cy="96" r="4" fill="#0B1F3A"/>
+  <path d="M94 104 L106 104 L100 111 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="3" stroke-linejoin="round"/>
+  <text font-family="Rubik, 'Arial Black', sans-serif" font-weight="900" font-size="19" letter-spacing="3" fill="#F4FBFC">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">DEL ORIENTE</textPath>
+  </text>
+  <text font-family="Rubik, Arial, sans-serif" font-weight="700" font-size="12" letter-spacing="2.5" fill="#2EC4C9" dominant-baseline="hanging">
+    <textPath href="#arcBot" startOffset="50%" text-anchor="middle">HECHO EN SAN MIGUEL</textPath>
+  </text>
+  <circle cx="30" cy="100" r="3" fill="#FFC933"/><circle cx="170" cy="100" r="3" fill="#FFC933"/>
+</svg>
+<div style="width:72px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Sello Del Oriente – Hecho en San Miguel">
+  <defs>
+    <path id="arcTop" d="M30 100 A70 70 0 0 1 170 100"/>
+    <path id="arcBot" d="M24 100 A76 76 0 0 0 176 100"/>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="#0B1F3A"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#2EC4C9" stroke-width="3"/>
+  <circle cx="100" cy="100" r="52" fill="#FF7A1A"/>
+  <!-- sun rays / heat -->
+  <g stroke="#FFC933" stroke-width="5" stroke-linecap="round">
+    <path d="M100 62 v-6"/><path d="M127 73 l4 -4"/><path d="M73 73 l-4 -4"/>
+  </g>
+  <!-- mini penguin -->
+  <path d="M100 66 C120 66 128 84 128 104 C128 126 116 138 100 138 C84 138 72 126 72 104 C72 84 80 66 100 66 Z" fill="#0B1F3A"/>
+  <path d="M100 88 C104 80 120 79 121 94 C122 114 115 132 100 132 C85 132 78 114 79 94 C80 79 96 80 100 88 Z" fill="#F4FBFC"/>
+  <circle cx="92" cy="96" r="4" fill="#0B1F3A"/><circle cx="108" cy="96" r="4" fill="#0B1F3A"/>
+  <path d="M94 104 L106 104 L100 111 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="3" stroke-linejoin="round"/>
+  <text font-family="Rubik, 'Arial Black', sans-serif" font-weight="900" font-size="19" letter-spacing="3" fill="#F4FBFC">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">DEL ORIENTE</textPath>
+  </text>
+  <text font-family="Rubik, Arial, sans-serif" font-weight="700" font-size="12" letter-spacing="2.5" fill="#2EC4C9" dominant-baseline="hanging">
+    <textPath href="#arcBot" startOffset="50%" text-anchor="middle">HECHO EN SAN MIGUEL</textPath>
+  </text>
+  <circle cx="30" cy="100" r="3" fill="#FFC933"/><circle cx="170" cy="100" r="3" fill="#FFC933"/>
+</svg>
+</div></div>
+  </section>
+  <p class="note">Borradores de concepto. Una vez elegida la dirección, se refinan las formas, se convierte la tipografía a contornos y se entregan los archivos finales (SVG, PNG, favicon, versión a una tinta para impresión de bolsas).</p>
+</main>
+</body>
+</html>
