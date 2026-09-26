@@ -5,6 +5,8 @@ here = Path(__file__).parent
 svg = {p.stem: p.read_text() for p in here.glob("*.svg")}
 
 concepts = [
+    ("d-sombrero", "D · Sombrero de palma (nuevo, recomendado)", "Evolución del concepto B: solo la cabeza, con sombrero de palma y cinta azul-blanco-azul. Colores planos sin degradado, contorno grueso y consistente. Funciona como ícono de app, avatar de WhatsApp y favicon."),
+    ("e-mascota-sombrero", "E · Mascota con sombrero y pañuelo (nuevo)", "La mascota de cuerpo completo con sombrero de palma y pañuelo rojo. Para bolsas, rótulos y redes; en tamaños pequeños se usa el ícono D."),
     ("a-mascota", "A · Mascota", "Pingüino de frente sosteniendo un cubito. El más expresivo y amigable; ideal como personaje para redes, bolsas y rótulos."),
     ("b-asomado", "B · Asomado", "Pingüino asomándose desde un cubo de hielo. Funciona como ícono de app, avatar de WhatsApp y favicon: se lee bien en tamaños pequeños."),
     ("c-tubo", "C · Tubo", "Pingüino de perfil construido con la forma del hielo en tubo. El más moderno y geométrico; conecta directamente con el producto estrella."),
@@ -16,9 +18,8 @@ def lockup(key, dark=False):
     <div class="lockup {'dark' if dark else ''}">
       <div class="lk-icon">{svg[key]}</div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:{fg}">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div>"""
 
@@ -43,7 +44,7 @@ html = f"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hielo Pingüino · Conceptos de logo</title>
+<title>Pingüino del Oriente · Logo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -67,23 +68,24 @@ html = f"""<!doctype html>
   .lockup.dark {{ background:var(--navy); }}
   .lk-icon svg {{ width:84px; display:block; }}
   .lk-text {{ display:flex; flex-direction:column; line-height:1; }}
-  .lk-hielo {{ font-weight:700; letter-spacing:.42em; font-size:14px; color:var(--teal); }}
-  .lk-name {{ font-weight:900; font-size:40px; letter-spacing:-.01em; margin:4px 0 6px; }}
-  .lk-tag {{ align-self:flex-start; background:var(--orange); color:#fff; font-weight:700; font-size:12px; padding:4px 10px; border-radius:99px; letter-spacing:.06em; text-transform:uppercase; }}
+  .lk-name {{ font-weight:900; font-size:40px; letter-spacing:-.01em; }}
+  .lk-sub {{ font-weight:700; font-size:17px; letter-spacing:.36em; color:var(--orange); margin-top:6px; }}
   .sizes {{ display:flex; align-items:end; gap:18px; color:#35506F; font-size:14px; flex-wrap:wrap; }}
   .sizes svg {{ width:100%; display:block; }}
   .badge-row {{ display:flex; flex-wrap:wrap; gap:20px; align-items:center; }}
   .badge-row > svg {{ width:200px; }} .badge-row div svg {{ width:100%; display:block; }}
   /* sticker outline so navy shapes stay visible on navy backgrounds */
   .navy svg, .lockup.dark .lk-icon svg {{ filter:drop-shadow(3px 0 0 var(--ice)) drop-shadow(-3px 0 0 var(--ice)) drop-shadow(0 3px 0 var(--ice)) drop-shadow(0 -3px 0 var(--ice)); }}
+  .clearbag {{ background:repeating-linear-gradient(135deg,#dfeef1 0 14px,#cfe6ea 14px 28px); }}
+  .badge-row .tile svg {{ width:100%; }}
   .note {{ font-size:13px; color:#5B708A; }}
-  @media (max-width:480px) {{ .lk-name {{ font-size:30px; }} .lk-icon svg {{ width:64px; }} }}
+  @media (max-width:480px) {{ .lk-name {{ font-size:30px; }} .lk-sub {{ font-size:13px; }} .lk-icon svg {{ width:64px; }} }}
 </style>
 </head>
 <body>
 <main>
-  <h1>Hielo Pingüino · Conceptos de logo</h1>
-  <p class="lead">Tres direcciones para el ícono principal, más el sello regional <strong>Del Oriente</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
+  <h1>Pingüino del Oriente · Conceptos de logo</h1>
+  <p class="lead">Direcciones para el ícono principal, más el sello <strong>Hecho en San Miguel</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
 
   <div class="palette">
     <div class="sw" style="background:var(--navy);color:#fff">Navy Profundo<br>#0B1F3A</div>
@@ -94,8 +96,19 @@ html = f"""<!doctype html>
   </div>
 {cards}
   <section class="badge-sec">
-    <h2>Sello regional · Del Oriente</h2>
-    <p>Emblema secundario para bolsas y rótulos en el mercado oriental. Si la marca se expande a San Salvador u Occidente, el sello se cambia o se quita y el logo principal queda intacto.</p>
+    <h2>D · Versión a una tinta</h2>
+    <p>Solo azul navy; todo lo demás es transparente (sin tinta). Para imprimir sobre bolsa transparente con hielo adentro, sellos, facturas y bordados.</p>
+    <div class="badge-row">
+      <div class="tile light" style="width:200px">{svg['d-sombrero-1tinta']}</div>
+      <div class="tile clearbag" style="width:200px">{svg['d-sombrero-1tinta']}</div>
+      <div style="width:64px">{svg['d-sombrero-1tinta']}</div><div style="width:32px">{svg['d-sombrero-1tinta']}</div>
+    </div>
+    <p class="note" style="margin-top:14px">Nota legal: la cinta azul-blanco-azul evoca la bandera sin reproducirla, y no se usa el escudo nacional. Conviene confirmarlo con un abogado o con el Registro de Propiedad Intelectual (CNR) antes de registrar la marca.</p>
+  </section>
+
+  <section class="badge-sec">
+    <h2>Sello · Hecho en San Miguel</h2>
+    <p>Emblema secundario de origen para bolsas, rótulos y camiones de reparto. Refuerza el orgullo local: hecho por migueleños, para el Oriente.</p>
     <div class="badge-row">{svg['badge-del-oriente']}<div style="width:72px">{svg['badge-del-oriente']}</div></div>
   </section>
   <p class="note">Borradores de concepto. Una vez elegida la dirección, se refinan las formas, se convierte la tipografía a contornos y se entregan los archivos finales (SVG, PNG, favicon, versión a una tinta para impresión de bolsas).</p>

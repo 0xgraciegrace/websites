@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, versión a una tinta">
+  <!-- Single ink (navy). Everything not navy is a knockout (transparent), for printing on clear bags. -->
+  <defs>
+    <clipPath id="d1Frame"><rect x="4" y="4" width="192" height="192" rx="42"/></clipPath>
+    <clipPath id="d1Crown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+    <mask id="d1Face" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="#fff"/>
+      <!-- face knockout -->
+      <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#000"/>
+      <!-- keep a gap between the head and the hat brim -->
+      <ellipse cx="100" cy="102" rx="88" ry="31" transform="rotate(-9 100 100)" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="#0B1F3A">
+    <rect x="4" y="4" width="192" height="192" rx="42" fill="none" stroke="#0B1F3A" stroke-width="7"/>
+    <g clip-path="url(#d1Frame)">
+      <circle cx="100" cy="190" r="90" mask="url(#d1Face)"/>
+      <circle cx="82" cy="146" r="10"/>
+      <circle cx="118" cy="146" r="10"/>
+      <path d="M86 164 L114 164 L100 180 Z" stroke="#0B1F3A" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="none"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+      <g clip-path="url(#d1Crown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6"/>
+        <rect x="60" y="93" width="80" height="6"/>
+      </g>
+    </g>
+  </g>
+</svg>

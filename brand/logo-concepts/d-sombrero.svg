@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>

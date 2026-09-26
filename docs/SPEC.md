@@ -1,4 +1,4 @@
-# Hielo Pingüino: Website Specification (draft v0.1)
+# Pingüino del Oriente: Website Specification (draft v0.2)
 
 Status: **Draft, in review.** Build starts only after the open questions in section 9 are answered.
 
@@ -8,8 +8,8 @@ Status: **Draft, in review.** Build starts only after the open questions in sect
 
 | | |
 |---|---|
-| **Master brand** | **Hielo Pingüino** (spoken form: *"un Pingüino"*) |
-| **Regional badge** | **Del Oriente** (tagline: *El Hielo del Oriente* / *Nacido en el Oriente*) |
+| **Brand name** | **Pingüino del Oriente** (spoken form: *"un Pingüino"*) |
+| **Tagline options** | *Hecho para el calor del Oriente* / *El Hielo del Oriente* |
 | **Company** | Locally owned ice plant in San Miguel, El Salvador |
 | **Launch products** | Clear **tube ice** (hielo en tubo) and **ice cubes** (cubitos) |
 | **Market** | Eastern El Salvador: San Miguel, La Unión, Usulután, Morazán |
@@ -18,9 +18,10 @@ Status: **Draft, in review.** Build starts only after the open questions in sect
 **Positioning in one line:** *Hecho para el calor del Oriente.* Ice made locally, delivered faster and colder than ice shipped in from San Salvador.
 
 ### Naming decision (recorded)
-- ✅ "Pingüino" is the primary noun and "Del Oriente" is a removable badge. That way the brand can expand to San Salvador or Occidente without a rebrand.
+- ✅ **Pingüino del Oriente** is the brand name. Regional identity in Oriente is a deliberate defensive position against Hielo Polar.
+- ✅ In the logo, **PINGÜINO** is the dominant word and **DEL ORIENTE** sits beneath it, so the short spoken form (*"dame un Pingüino"*) comes naturally.
 - ❌ "Pingüino Oriental" is rejected because *oriental* reads as "Asian food" in local B2C usage.
-- ❌ "Pingüino del Oriente" is not used as the legal/primary name, because it is too long to say when ordering and has a built-in expansion ceiling.
+- ⚠️ Accepted trade-off: the regional name may need a sub-brand or adjustment if the company later expands to San Salvador or Occidente.
 
 ---
 
@@ -84,10 +85,14 @@ Single-page site in **Spanish** (es-SV), with anchor navigation. It can grow int
 | Hielo Teal | `#2EC4C9` | Brand accent, ice, highlights |
 | Naranja Eléctrico | `#FF7A1A` | Beak, feet, CTAs, "pop" in freezer chests |
 | Blanco Hielo | `#F4FBFC` | Backgrounds, mascot belly |
-| Amarillo Sol | `#FFC933` | Sparingly: heat, sun, promo badges |
+| Amarillo Sol | `#FFC933` | Straw hat, heat, sun, promo badges |
+| Azul Cinta | `#1F5FC4` | Hat band only |
+| Rojo Pañuelo | `#D62828` | Mascot bandana only |
 
 - **Type:** a heavy rounded or geometric sans for headings (candidate: *Rubik* 800–900) and a clean sans for body text.
-- **Logo system:** penguin icon + **HIELO PINGÜINO** wordmark + optional **Del Oriente** badge. See `brand/logo-concepts/`.
+- **Logo system:** penguin icon + **PINGÜINO / DEL ORIENTE** wordmark + optional *Hecho en San Miguel* seal. See `brand/logo-concepts/`.
+- **Recommended icon (concept D):** a head-only penguin wearing a *sombrero de palma* with a blue-white-blue band. It adds a Salvadoran element and still reads at app-icon size. It uses flat colors (no gradients, so bags can be printed with spot inks), has a one-color navy version for clear bags, and a full-body mascot with a red *pañuelo* for bags and signs.
+- **National symbols:** the hat band only hints at the flag. It does not reproduce the flag or use the coat of arms. Confirm with a lawyer or the CNR (Registro de la Propiedad Intelectual) before registering the trademark.
 
 ---
 
@@ -118,6 +123,7 @@ Online ordering and payments, customer accounts, blog, English version.
 4. **Contact details:** WhatsApp number, phone, plant address, opening hours.
 5. **Proof points:** water treatment (ósmosis inversa? UV?), health registration or permits, founding date.
 6. **Photos:** do you have plant, product and team photos, or should we plan a photo shoot?
-7. **Domain:** e.g. `hielopinguino.com.sv` / `hielopinguino.com`?
+7. **Domain:** e.g. `pinguinodeloriente.com.sv` / `pinguinodeloriente.com`?
 8. **Social media:** Facebook, Instagram and TikTok handles.
-9. **Logo direction:** which concept in `brand/logo-concepts/` should we develop?
+9. **Logo direction:** confirm concept D (sombrero) or choose another in `brand/logo-concepts/`.
+10. **Bag printing:** how many ink colors can the bag supplier print? This decides whether the yellow hat and blue band stay in the bag version.

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hielo Pingüino · Conceptos de logo</title>
+<title>Pingüino del Oriente · Logo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -27,23 +27,24 @@
   .lockup.dark { background:var(--navy); }
   .lk-icon svg { width:84px; display:block; }
   .lk-text { display:flex; flex-direction:column; line-height:1; }
-  .lk-hielo { font-weight:700; letter-spacing:.42em; font-size:14px; color:var(--teal); }
-  .lk-name { font-weight:900; font-size:40px; letter-spacing:-.01em; margin:4px 0 6px; }
-  .lk-tag { align-self:flex-start; background:var(--orange); color:#fff; font-weight:700; font-size:12px; padding:4px 10px; border-radius:99px; letter-spacing:.06em; text-transform:uppercase; }
+  .lk-name { font-weight:900; font-size:40px; letter-spacing:-.01em; }
+  .lk-sub { font-weight:700; font-size:17px; letter-spacing:.36em; color:var(--orange); margin-top:6px; }
   .sizes { display:flex; align-items:end; gap:18px; color:#35506F; font-size:14px; flex-wrap:wrap; }
   .sizes svg { width:100%; display:block; }
   .badge-row { display:flex; flex-wrap:wrap; gap:20px; align-items:center; }
   .badge-row > svg { width:200px; } .badge-row div svg { width:100%; display:block; }
   /* sticker outline so navy shapes stay visible on navy backgrounds */
   .navy svg, .lockup.dark .lk-icon svg { filter:drop-shadow(3px 0 0 var(--ice)) drop-shadow(-3px 0 0 var(--ice)) drop-shadow(0 3px 0 var(--ice)) drop-shadow(0 -3px 0 var(--ice)); }
+  .clearbag { background:repeating-linear-gradient(135deg,#dfeef1 0 14px,#cfe6ea 14px 28px); }
+  .badge-row .tile svg { width:100%; }
   .note { font-size:13px; color:#5B708A; }
-  @media (max-width:480px) { .lk-name { font-size:30px; } .lk-icon svg { width:64px; } }
+  @media (max-width:480px) { .lk-name { font-size:30px; } .lk-sub { font-size:13px; } .lk-icon svg { width:64px; } }
 </style>
 </head>
 <body>
 <main>
-  <h1>Hielo Pingüino · Conceptos de logo</h1>
-  <p class="lead">Tres direcciones para el ícono principal, más el sello regional <strong>Del Oriente</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
+  <h1>Pingüino del Oriente · Conceptos de logo</h1>
+  <p class="lead">Direcciones para el ícono principal, más el sello <strong>Hecho en San Miguel</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
 
   <div class="palette">
     <div class="sw" style="background:var(--navy);color:#fff">Navy Profundo<br>#0B1F3A</div>
@@ -54,9 +55,557 @@
   </div>
 
   <section class="concept">
+    <header><h2>D · Sombrero de palma (nuevo, recomendado)</h2><p>Evolución del concepto B: solo la cabeza, con sombrero de palma y cinta azul-blanco-azul. Colores planos sin degradado, contorno grueso y consistente. Funciona como ícono de app, avatar de WhatsApp y favicon.</p></header>
+    <div class="row">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div>
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div>
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div>
+    </div>
+    <div class="row lockups">
+    <div class="lockup ">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
+        <span class="lk-sub">DEL ORIENTE</span>
+      </div>
+    </div>
+    <div class="lockup dark">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
+        <span class="lk-sub">DEL ORIENTE</span>
+      </div>
+    </div></div>
+    <div class="sizes"><span>Tamaños pequeños:</span>
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, pingüino con sombrero de palma">
+  <!-- Flat colors only: navy, ice white, orange, teal, straw yellow, band blue -->
+  <defs>
+    <clipPath id="dFrame"><rect width="200" height="200" rx="46"/></clipPath>
+    <clipPath id="dCrown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#dFrame)">
+    <rect width="200" height="200" fill="#2EC4C9"/>
+    <!-- head -->
+    <circle cx="100" cy="190" r="90" fill="#0B1F3A"/>
+    <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="118" cy="146" r="10" fill="#0B1F3A"/>
+    <circle cx="85.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <circle cx="121.5" cy="142.5" r="3.4" fill="#F4FBFC"/>
+    <path d="M86 164 L114 164 L100 180 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
+    <!-- sombrero de palma, tilted -->
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="5" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="#FFC933"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z" fill="#FFC933"/>
+      <g clip-path="url(#dCrown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6" fill="#1F5FC4"/>
+        <rect x="60" y="88" width="80" height="5" fill="#F4FBFC"/>
+        <rect x="60" y="93" width="80" height="6" fill="#1F5FC4"/>
+      </g>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div>
+    </div>
+  </section>
+  <section class="concept">
+    <header><h2>E · Mascota con sombrero y pañuelo (nuevo)</h2><p>La mascota de cuerpo completo con sombrero de palma y pañuelo rojo. Para bolsas, rótulos y redes; en tamaños pequeños se usa el ícono D.</p></header>
+    <div class="row">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div>
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div>
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div>
+    </div>
+    <div class="row lockups">
+    <div class="lockup ">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
+        <span class="lk-sub">DEL ORIENTE</span>
+      </div>
+    </div>
+    <div class="lockup dark">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div>
+      <div class="lk-text">
+        <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
+        <span class="lk-sub">DEL ORIENTE</span>
+      </div>
+    </div></div>
+    <div class="sizes"><span>Tamaños pequeños:</span>
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto E, mascota con sombrero de palma y pañuelo rojo">
+  <defs>
+    <clipPath id="eCrown"><path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z"/></clipPath>
+  </defs>
+  <!-- body: concept A scaled to leave room for the hat -->
+  <g transform="translate(20 42) scale(.8)">
+    <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
+    <path d="M42 100 C22 118 20 140 30 150 C40 140 46 128 50 116 Z" fill="#0B1F3A"/>
+    <path d="M158 100 C178 118 180 140 170 150 C160 140 154 128 150 116 Z" fill="#0B1F3A"/>
+    <path d="M100 14 C146 14 164 56 164 106 C164 156 138 184 100 184 C62 184 36 156 36 106 C36 56 54 14 100 14 Z" fill="#0B1F3A"/>
+    <path d="M100 66 C108 46 142 44 144 78 C147 122 132 172 100 172 C68 172 53 122 56 78 C58 44 92 46 100 66 Z" fill="#F4FBFC"/>
+    <circle cx="82" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="118" cy="84" r="9" fill="#0B1F3A"/>
+    <circle cx="85" cy="81" r="3" fill="#F4FBFC"/>
+    <circle cx="121" cy="81" r="3" fill="#F4FBFC"/>
+    <!-- pañuelo rojo -->
+    <path d="M44 118 Q100 142 156 118 L156 132 Q100 156 44 132 Z" fill="#D62828"/>
+    <path d="M84 138 L116 138 L100 166 Z" fill="#D62828" stroke="#D62828" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M86 100 L114 100 L100 116 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <!-- sombrero de palma -->
+  <g transform="rotate(-9 100 58)" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round">
+    <ellipse cx="100" cy="58" rx="66" ry="13" fill="#FFC933"/>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56 Z" fill="#FFC933"/>
+    <g clip-path="url(#eCrown)" stroke="none">
+      <rect x="60" y="40" width="80" height="5" fill="#1F5FC4"/>
+      <rect x="60" y="45" width="80" height="4.5" fill="#F4FBFC"/>
+      <rect x="60" y="49.5" width="80" height="5" fill="#1F5FC4"/>
+    </g>
+    <path d="M68 56 L74 22 Q100 6 126 22 L132 56" fill="none"/>
+  </g>
+</svg>
+</div>
+    </div>
+  </section>
+  <section class="concept">
     <header><h2>A · Mascota</h2><p>Pingüino de frente sosteniendo un cubito. El más expresivo y amigable; ideal como personaje para redes, bolsas y rótulos.</p></header>
     <div class="row">
-      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -81,7 +630,7 @@
   </g>
 </svg>
 </div>
-      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -106,7 +655,7 @@
   </g>
 </svg>
 </div>
-      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -134,7 +683,7 @@
     </div>
     <div class="row lockups">
     <div class="lockup ">
-      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -160,13 +709,12 @@
 </svg>
 </div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div>
     <div class="lockup dark">
-      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -192,13 +740,12 @@
 </svg>
 </div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div></div>
     <div class="sizes"><span>Tamaños pequeños:</span>
-      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -222,7 +769,7 @@
     <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
   </g>
 </svg>
-</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -246,7 +793,7 @@
     <rect x="91" y="136" width="9" height="5" rx="2.5" fill="#F4FBFC" opacity=".8"/>
   </g>
 </svg>
-</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto A, mascota">
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto A, mascota">
   <!-- feet -->
   <ellipse cx="78" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
   <ellipse cx="122" cy="184" rx="17" ry="7" fill="#FF7A1A"/>
@@ -276,7 +823,7 @@
   <section class="concept">
     <header><h2>B · Asomado</h2><p>Pingüino asomándose desde un cubo de hielo. Funciona como ícono de app, avatar de WhatsApp y favicon: se lee bien en tamaños pequeños.</p></header>
     <div class="row">
-      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -299,7 +846,7 @@
   </g>
 </svg>
 </div>
-      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -322,7 +869,7 @@
   </g>
 </svg>
 </div>
-      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -348,7 +895,7 @@
     </div>
     <div class="row lockups">
     <div class="lockup ">
-      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -372,13 +919,12 @@
 </svg>
 </div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div>
     <div class="lockup dark">
-      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -402,13 +948,12 @@
 </svg>
 </div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div></div>
     <div class="sizes"><span>Tamaños pequeños:</span>
-      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -430,7 +975,7 @@
     <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
   </g>
 </svg>
-</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -452,7 +997,7 @@
     <path d="M85 152 L115 152 L100 169 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="7" stroke-linejoin="round"/>
   </g>
 </svg>
-</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto B, pingüino asomado en cubo de hielo">
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto B, pingüino asomado en cubo de hielo">
   <defs>
     <linearGradient id="bIce" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EE0E2"/><stop offset="1" stop-color="#1FA9B0"/>
@@ -480,7 +1025,7 @@
   <section class="concept">
     <header><h2>C · Tubo</h2><p>Pingüino de perfil construido con la forma del hielo en tubo. El más moderno y geométrico; conecta directamente con el producto estrella.</p></header>
     <div class="row">
-      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+      <div class="tile light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -497,7 +1042,7 @@
   <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
 </svg>
 </div>
-      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+      <div class="tile navy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -514,7 +1059,7 @@
   <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
 </svg>
 </div>
-      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+      <div class="tile teal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -534,7 +1079,7 @@
     </div>
     <div class="row lockups">
     <div class="lockup ">
-      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -552,13 +1097,12 @@
 </svg>
 </div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:#0B1F3A">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div>
     <div class="lockup dark">
-      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+      <div class="lk-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -576,13 +1120,12 @@
 </svg>
 </div>
       <div class="lk-text">
-        <span class="lk-hielo">HIELO</span>
         <span class="lk-name" style="color:#F4FBFC">PINGÜINO</span>
-        <span class="lk-tag">Del Oriente</span>
+        <span class="lk-sub">DEL ORIENTE</span>
       </div>
     </div></div>
     <div class="sizes"><span>Tamaños pequeños:</span>
-      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -598,7 +1141,7 @@
   <!-- beak -->
   <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
 </svg>
-</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -614,7 +1157,7 @@
   <!-- beak -->
   <path d="M146 50 L176 60 L146 70 Z" fill="#FF7A1A" stroke="#FF7A1A" stroke-width="6" stroke-linejoin="round"/>
 </svg>
-</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hielo Pingüino – concepto C, pingüino en forma de hielo en tubo">
+</div><div style="width:16px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto C, pingüino en forma de hielo en tubo">
   <!-- feet -->
   <rect x="72" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
   <rect x="104" y="178" width="30" height="12" rx="6" fill="#FF7A1A"/>
@@ -634,8 +1177,143 @@
     </div>
   </section>
   <section class="badge-sec">
-    <h2>Sello regional · Del Oriente</h2>
-    <p>Emblema secundario para bolsas y rótulos en el mercado oriental. Si la marca se expande a San Salvador u Occidente, el sello se cambia o se quita y el logo principal queda intacto.</p>
+    <h2>D · Versión a una tinta</h2>
+    <p>Solo azul navy; todo lo demás es transparente (sin tinta). Para imprimir sobre bolsa transparente con hielo adentro, sellos, facturas y bordados.</p>
+    <div class="badge-row">
+      <div class="tile light" style="width:200px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, versión a una tinta">
+  <!-- Single ink (navy). Everything not navy is a knockout (transparent), for printing on clear bags. -->
+  <defs>
+    <clipPath id="d1Frame"><rect x="4" y="4" width="192" height="192" rx="42"/></clipPath>
+    <clipPath id="d1Crown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+    <mask id="d1Face" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="#fff"/>
+      <!-- face knockout -->
+      <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#000"/>
+      <!-- keep a gap between the head and the hat brim -->
+      <ellipse cx="100" cy="102" rx="88" ry="31" transform="rotate(-9 100 100)" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="#0B1F3A">
+    <rect x="4" y="4" width="192" height="192" rx="42" fill="none" stroke="#0B1F3A" stroke-width="7"/>
+    <g clip-path="url(#d1Frame)">
+      <circle cx="100" cy="190" r="90" mask="url(#d1Face)"/>
+      <circle cx="82" cy="146" r="10"/>
+      <circle cx="118" cy="146" r="10"/>
+      <path d="M86 164 L114 164 L100 180 Z" stroke="#0B1F3A" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="none"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+      <g clip-path="url(#d1Crown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6"/>
+        <rect x="60" y="93" width="80" height="6"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</div>
+      <div class="tile clearbag" style="width:200px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, versión a una tinta">
+  <!-- Single ink (navy). Everything not navy is a knockout (transparent), for printing on clear bags. -->
+  <defs>
+    <clipPath id="d1Frame"><rect x="4" y="4" width="192" height="192" rx="42"/></clipPath>
+    <clipPath id="d1Crown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+    <mask id="d1Face" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="#fff"/>
+      <!-- face knockout -->
+      <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#000"/>
+      <!-- keep a gap between the head and the hat brim -->
+      <ellipse cx="100" cy="102" rx="88" ry="31" transform="rotate(-9 100 100)" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="#0B1F3A">
+    <rect x="4" y="4" width="192" height="192" rx="42" fill="none" stroke="#0B1F3A" stroke-width="7"/>
+    <g clip-path="url(#d1Frame)">
+      <circle cx="100" cy="190" r="90" mask="url(#d1Face)"/>
+      <circle cx="82" cy="146" r="10"/>
+      <circle cx="118" cy="146" r="10"/>
+      <path d="M86 164 L114 164 L100 180 Z" stroke="#0B1F3A" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="none"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+      <g clip-path="url(#d1Crown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6"/>
+        <rect x="60" y="93" width="80" height="6"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</div>
+      <div style="width:64px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, versión a una tinta">
+  <!-- Single ink (navy). Everything not navy is a knockout (transparent), for printing on clear bags. -->
+  <defs>
+    <clipPath id="d1Frame"><rect x="4" y="4" width="192" height="192" rx="42"/></clipPath>
+    <clipPath id="d1Crown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+    <mask id="d1Face" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="#fff"/>
+      <!-- face knockout -->
+      <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#000"/>
+      <!-- keep a gap between the head and the hat brim -->
+      <ellipse cx="100" cy="102" rx="88" ry="31" transform="rotate(-9 100 100)" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="#0B1F3A">
+    <rect x="4" y="4" width="192" height="192" rx="42" fill="none" stroke="#0B1F3A" stroke-width="7"/>
+    <g clip-path="url(#d1Frame)">
+      <circle cx="100" cy="190" r="90" mask="url(#d1Face)"/>
+      <circle cx="82" cy="146" r="10"/>
+      <circle cx="118" cy="146" r="10"/>
+      <path d="M86 164 L114 164 L100 180 Z" stroke="#0B1F3A" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="none"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+      <g clip-path="url(#d1Crown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6"/>
+        <rect x="60" y="93" width="80" height="6"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</div><div style="width:32px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto D, versión a una tinta">
+  <!-- Single ink (navy). Everything not navy is a knockout (transparent), for printing on clear bags. -->
+  <defs>
+    <clipPath id="d1Frame"><rect x="4" y="4" width="192" height="192" rx="42"/></clipPath>
+    <clipPath id="d1Crown"><path d="M66 100 L73 60 Q100 42 127 60 L134 100 Z"/></clipPath>
+    <mask id="d1Face" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="#fff"/>
+      <!-- face knockout -->
+      <path d="M100 128 C107 110 140 106 144 138 C148 175 135 205 100 205 C65 205 52 175 56 138 C60 106 93 110 100 128 Z" fill="#000"/>
+      <!-- keep a gap between the head and the hat brim -->
+      <ellipse cx="100" cy="102" rx="88" ry="31" transform="rotate(-9 100 100)" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="#0B1F3A">
+    <rect x="4" y="4" width="192" height="192" rx="42" fill="none" stroke="#0B1F3A" stroke-width="7"/>
+    <g clip-path="url(#d1Frame)">
+      <circle cx="100" cy="190" r="90" mask="url(#d1Face)"/>
+      <circle cx="82" cy="146" r="10"/>
+      <circle cx="118" cy="146" r="10"/>
+      <path d="M86 164 L114 164 L100 180 Z" stroke="#0B1F3A" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(-9 100 100)" stroke="#0B1F3A" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="100" cy="102" rx="80" ry="17" fill="none"/>
+      <path d="M66 100 L73 60 Q100 42 127 60 L134 100" fill="none"/>
+      <g clip-path="url(#d1Crown)" stroke="none">
+        <rect x="60" y="82" width="80" height="6"/>
+        <rect x="60" y="93" width="80" height="6"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</div>
+    </div>
+    <p class="note" style="margin-top:14px">Nota legal: la cinta azul-blanco-azul evoca la bandera sin reproducirla, y no se usa el escudo nacional. Conviene confirmarlo con un abogado o con el Registro de Propiedad Intelectual (CNR) antes de registrar la marca.</p>
+  </section>
+
+  <section class="badge-sec">
+    <h2>Sello · Hecho en San Miguel</h2>
+    <p>Emblema secundario de origen para bolsas, rótulos y camiones de reparto. Refuerza el orgullo local: hecho por migueleños, para el Oriente.</p>
     <div class="badge-row"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Sello Del Oriente – Hecho en San Miguel">
   <defs>
     <path id="arcTop" d="M30 100 A70 70 0 0 1 170 100"/>
