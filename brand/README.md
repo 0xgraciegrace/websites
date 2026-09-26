@@ -2,8 +2,11 @@
 
 Logo concepts are in `logo-concepts/`. Open `logo-concepts/preview.html` in a browser to compare them.
 
-- `f-moderno.svg`: **newest.** Modern, friendly full-body mascot based on the client's reference: sombrero worn on the head, blue-white scarf, open smile, waving
+- `f-moderno.svg`: **✓ approved mascot.** Modern, friendly full-body mascot based on the client's reference: sombrero worn on the head, blue-white scarf, open smile, raised flipper
 - `f-moderno-icono.svg`: concept F cropped to the head for app icon, avatar and favicon
+- `f-moderno-1tinta.svg`: one-color navy version of the F icon
+
+The other concepts are kept for reference:
 - `a-mascota.svg`: front-facing mascot holding an ice cube
 - `b-asomado.svg`: penguin peeking out of an ice cube (app icon / avatar)
 - `d-sombrero.svg`: Concept B redrawn as a head-only penguin in a sombrero de palma with a blue-white-blue band, flat colors

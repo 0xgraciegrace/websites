@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pingüino del Oriente – concepto F, ícono a una tinta">
+  <!-- Single ink (navy). Everything not navy is a knockout (transparent), for clear bags, stamps and embroidery. -->
+  <defs>
+    <clipPath id="f1Frame"><rect x="4" y="4" width="192" height="192" rx="42"/></clipPath>
+    <mask id="f1Head" maskUnits="userSpaceOnUse" x="-60" y="-60" width="320" height="320">
+      <rect x="-60" y="-60" width="320" height="320" fill="#fff"/>
+      <path d="M100 76 C108 58 148 56 150 92 C152 122 138 136 100 136 C62 136 48 122 50 92 C52 56 92 58 100 76 Z" fill="#000"/>
+      <path d="M44 132 Q100 158 156 132 L157 147 Q100 174 43 147 Z" fill="#000" stroke="#000" stroke-width="9" stroke-linejoin="round"/>
+      <g transform="rotate(-10 100 50)" fill="#000" stroke="#000" stroke-width="10">
+        <path d="M64 50 L70 17 Q100 3 130 17 L136 50 Z"/><ellipse cx="100" cy="52" rx="72" ry="14"/>
+      </g>
+    </mask>
+    <mask id="f1Face" maskUnits="userSpaceOnUse" x="-60" y="-60" width="320" height="320">
+      <rect x="-60" y="-60" width="320" height="320" fill="#fff"/>
+      <circle cx="85" cy="89" r="3.8" fill="#000"/><circle cx="125" cy="89" r="3.8" fill="#000"/>
+      <path d="M94 126 Q106 119 118 123 Q107 138 94 126 Z" fill="#000"/>
+      <path d="M79 106 Q101 94 131 102 Q121 112 103 112 Q88 112 79 106 Z" fill="#000" stroke="#000" stroke-width="9" stroke-linejoin="round"/>
+    </mask>
+    <mask id="f1Scarf" maskUnits="userSpaceOnUse" x="-60" y="-60" width="320" height="320">
+      <rect x="-60" y="-60" width="320" height="320" fill="#fff"/>
+      <path d="M47 139 Q100 164 153 139" fill="none" stroke="#000" stroke-width="3"/>
+    </mask>
+    <mask id="f1Crown" maskUnits="userSpaceOnUse" x="-60" y="-60" width="320" height="320">
+      <rect x="-60" y="-60" width="320" height="320" fill="#fff"/>
+      <ellipse cx="100" cy="52" rx="72" ry="14" fill="#000"/>
+    </mask>
+  </defs>
+  <rect x="4" y="4" width="192" height="192" rx="42" fill="none" stroke="#0B1F3A" stroke-width="7"/>
+  <g clip-path="url(#f1Frame)">
+    <g transform="translate(-33 10) scale(1.33)" fill="#0B1F3A">
+      <path d="M100 38 C150 38 166 90 166 140 C166 190 140 206 100 206 C60 206 34 190 34 140 C34 90 50 38 100 38 Z" mask="url(#f1Head)"/>
+      <g mask="url(#f1Face)">
+        <circle cx="80" cy="93" r="13"/><circle cx="120" cy="93" r="13"/>
+        <path d="M84 108 Q104 146 126 106 Z"/>
+      </g>
+      <path d="M79 106 Q101 94 131 102 Q121 112 103 112 Q88 112 79 106 Z" fill="none" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round"/>
+      <path d="M44 132 Q100 158 156 132 L157 147 Q100 174 43 147 Z" mask="url(#f1Scarf)"/>
+      <g transform="rotate(-10 100 50)">
+        <g mask="url(#f1Crown)">
+          <path d="M64 50 L70 17 Q100 3 130 17 L136 50 Z" fill="none" stroke="#0B1F3A" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M67 27 L133 27 L134.5 35 L65.5 35 Z"/>
+        </g>
+        <ellipse cx="100" cy="52" rx="72" ry="14" fill="none" stroke="#0B1F3A" stroke-width="4.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

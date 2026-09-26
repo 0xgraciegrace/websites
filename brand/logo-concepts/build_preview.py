@@ -5,10 +5,10 @@ here = Path(__file__).parent
 svg = {p.stem: p.read_text() for p in here.glob("*.svg")}
 
 concepts = [
-    ("f-moderno", "F · Moderno amigable (nuevo, a partir de tu referencia)", "Punto medio entre la referencia clásica y los conceptos planos: sombrero de palma bien puesto, bufanda azul y blanca, sonrisa abierta, ojos azules y pulgar arriba. Formas planas y simples para que se vea moderno y se imprima bien."),
+    ("f-moderno", "F · Mascota oficial ✓ (elegida)", "Punto medio entre la referencia clásica y los conceptos planos: sombrero de palma bien puesto, bufanda azul y blanca que transmite frío, sonrisa abierta, ojos azules y aleta arriba saludando. Formas planas y simples para que se vea moderno y se imprima bien."),
     ("f-moderno-icono", "F · Ícono (cabeza)", "La misma mascota recortada a la cabeza para ícono de app, avatar de WhatsApp y favicon."),
     ("d-sombrero", "D · Sombrero de palma (anterior)", "Evolución del concepto B: solo la cabeza, con sombrero de palma y cinta azul-blanco-azul. Colores planos sin degradado, contorno grueso y consistente. Funciona como ícono de app, avatar de WhatsApp y favicon."),
-    ("e-mascota-sombrero", "E · Mascota con sombrero y pañuelo (nuevo)", "La mascota de cuerpo completo con sombrero de palma y pañuelo rojo. Para bolsas, rótulos y redes; en tamaños pequeños se usa el ícono D."),
+    ("e-mascota-sombrero", "E · Mascota con sombrero y pañuelo", "La mascota de cuerpo completo con sombrero de palma y pañuelo rojo. Para bolsas, rótulos y redes; en tamaños pequeños se usa el ícono D."),
     ("a-mascota", "A · Mascota", "Pingüino de frente sosteniendo un cubito. El más expresivo y amigable; ideal como personaje para redes, bolsas y rótulos."),
     ("b-asomado", "B · Asomado", "Pingüino asomándose desde un cubo de hielo. Funciona como ícono de app, avatar de WhatsApp y favicon: se lee bien en tamaños pequeños."),
     ("c-tubo", "C · Tubo", "Pingüino de perfil construido con la forma del hielo en tubo. El más moderno y geométrico; conecta directamente con el producto estrella."),
@@ -25,9 +25,8 @@ def lockup(key, dark=False):
       </div>
     </div>"""
 
-cards = ""
-for key, title, desc in concepts:
-    cards += f"""
+def card(key, title, desc):
+    return f"""
   <section class="concept">
     <header><h2>{title}</h2><p>{desc}</p></header>
     <div class="row">
@@ -40,6 +39,10 @@ for key, title, desc in concepts:
       <div style="width:64px">{svg[key]}</div><div style="width:32px">{svg[key]}</div><div style="width:16px">{svg[key]}</div>
     </div>
   </section>"""
+
+chosen, older = concepts[:2], concepts[2:]
+cards = "".join(card(*c) for c in chosen)
+older_cards = "".join(card(*c) for c in older)
 
 html = f"""<!doctype html>
 <html lang="es">
@@ -80,6 +83,7 @@ html = f"""<!doctype html>
   .navy svg, .lockup.dark .lk-icon svg {{ filter:drop-shadow(3px 0 0 var(--ice)) drop-shadow(-3px 0 0 var(--ice)) drop-shadow(0 3px 0 var(--ice)) drop-shadow(0 -3px 0 var(--ice)); }}
   .clearbag {{ background:repeating-linear-gradient(135deg,#dfeef1 0 14px,#cfe6ea 14px 28px); }}
   .badge-row .tile svg {{ width:100%; }}
+  .prev {{ font-weight:900; margin:48px 0 16px; color:#5B708A; }}
   .note {{ font-size:13px; color:#5B708A; }}
   @media (max-width:480px) {{ .lk-name {{ font-size:30px; }} .lk-sub {{ font-size:13px; }} .lk-icon svg {{ width:64px; }} }}
 </style>
@@ -87,7 +91,7 @@ html = f"""<!doctype html>
 <body>
 <main>
   <h1>Pingüino del Oriente · Conceptos de logo</h1>
-  <p class="lead">Direcciones para el ícono principal, más el sello <strong>Hecho en San Miguel</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
+  <p class="lead">Mascota oficial (concepto F) y sus versiones, más el sello <strong>Hecho en San Miguel</strong>. Todas usan la misma paleta: moderna, de alto contraste y deliberadamente distinta al azul y blanco clásico de la competencia.</p>
 
   <div class="palette">
     <div class="sw" style="background:var(--navy);color:#fff">Navy Profundo<br>#0B1F3A</div>
@@ -97,6 +101,19 @@ html = f"""<!doctype html>
     <div class="sw" style="background:var(--sun)">Amarillo Sol<br>#FFC933</div>
   </div>
 {cards}
+  <section class="badge-sec">
+    <h2>F · Ícono a una tinta</h2>
+    <p>Solo azul navy; todo lo demás es transparente (sin tinta). Para bolsa transparente con hielo adentro, sellos, facturas y bordados.</p>
+    <div class="badge-row">
+      <div class="tile light" style="width:200px">{svg['f-moderno-1tinta']}</div>
+      <div class="tile clearbag" style="width:200px">{svg['f-moderno-1tinta']}</div>
+      <div style="width:64px">{svg['f-moderno-1tinta']}</div><div style="width:32px">{svg['f-moderno-1tinta']}</div>
+    </div>
+  </section>
+
+  <h2 class="prev">Conceptos anteriores (referencia)</h2>
+{older_cards}
+
   <section class="badge-sec">
     <h2>D · Versión a una tinta</h2>
     <p>Solo azul navy; todo lo demás es transparente (sin tinta). Para imprimir sobre bolsa transparente con hielo adentro, sellos, facturas y bordados.</p>

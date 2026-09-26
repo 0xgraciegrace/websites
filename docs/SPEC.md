@@ -1,4 +1,4 @@
-# Pingüino del Oriente: Website Specification (draft v0.2)
+# Pingüino del Oriente: Website Specification (draft v0.3)
 
 Status: **Draft, in review.** Build starts only after the open questions in section 9 are answered.
 
@@ -85,14 +85,16 @@ Single-page site in **Spanish** (es-SV), with anchor navigation. It can grow int
 | Hielo Teal | `#2EC4C9` | Brand accent, ice, highlights |
 | Naranja Eléctrico | `#FF7A1A` | Beak, feet, CTAs, "pop" in freezer chests |
 | Blanco Hielo | `#F4FBFC` | Backgrounds, mascot belly |
-| Amarillo Sol | `#FFC933` | Straw hat, heat, sun, promo badges |
-| Azul Cinta | `#1F5FC4` | Hat band only |
-| Rojo Pañuelo | `#D62828` | Mascot bandana only |
+| Amarillo Sol | `#FFC933` | Straw hat (shade `#E3A51A`), heat, promo badges |
+| Azul Bufanda | `#1F5FC4` | Scarf and eyes |
 
 - **Type:** a heavy rounded or geometric sans for headings (candidate: *Rubik* 800–900) and a clean sans for body text.
 - **Logo system:** penguin icon + **PINGÜINO / DEL ORIENTE** wordmark + optional *Hecho en San Miguel* seal. See `brand/logo-concepts/`.
-- **Recommended icon (concept D):** a head-only penguin wearing a *sombrero de palma* with a blue-white-blue band. It adds a Salvadoran element and still reads at app-icon size. It uses flat colors (no gradients, so bags can be printed with spot inks), has a one-color navy version for clear bags, and a full-body mascot with a red *pañuelo* for bags and signs.
-- **National symbols:** the hat band only hints at the flag. It does not reproduce the flag or use the coat of arms. Confirm with a lawyer or the CNR (Registro de la Propiedad Intelectual) before registering the trademark.
+- **Chosen mascot (concept F), approved:** a modern, friendly flat-vector penguin that wears a *sombrero de palma* and a blue-white scarf (the scarf also says "cold"). It has an open smile, blue eyes and one flipper raised in greeting. It sits between the client's classic 3D reference and the earlier flat concepts.
+  - `brand/logo-concepts/f-moderno.svg`: full body, for bags, signs, social media and the website hero
+  - `brand/logo-concepts/f-moderno-icono.svg`: head only, for the app icon, WhatsApp avatar and favicon
+  - `brand/logo-concepts/f-moderno-1tinta.svg`: one-color navy icon, for clear bags, stamps and embroidery
+- **National symbols:** the blue-white scarf only hints at the flag. It does not reproduce the flag or use the coat of arms. Confirm with a lawyer or the CNR (Registro de la Propiedad Intelectual) before registering the trademark.
 
 ---
 
@@ -125,5 +127,5 @@ Online ordering and payments, customer accounts, blog, English version.
 6. **Photos:** do you have plant, product and team photos, or should we plan a photo shoot?
 7. **Domain:** e.g. `pinguinodeloriente.com.sv` / `pinguinodeloriente.com`?
 8. **Social media:** Facebook, Instagram and TikTok handles.
-9. **Logo direction:** confirm concept D (sombrero) or choose another in `brand/logo-concepts/`.
-10. **Bag printing:** how many ink colors can the bag supplier print? This decides whether the yellow hat and blue band stay in the bag version.
+9. ~~**Logo direction**~~: concept F approved.
+10. **Bag printing:** how many ink colors can the bag supplier print? This decides whether the bag uses the full-color mascot or the one-color version.
